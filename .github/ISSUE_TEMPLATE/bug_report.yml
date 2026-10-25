@@ -1,0 +1,79 @@
+name: Bug report
+description: Something in Framewise doesn't work as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Issues are public: **never paste an API key**, and only attach screenshots, frames or clips you're happy for anyone to see. For anything private, email scottj@live.com instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: "I added a folder of 20 clips and clicked Start analysis. Three clips failed with ..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add clips ...
+        2. Click ...
+        3. See error ...
+  - type: input
+    id: app-version
+    attributes:
+      label: Framewise version
+      description: Shown at the bottom of Settings.
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: store
+    attributes:
+      label: Where did you get Framewise?
+      options:
+        - Mac App Store
+        - Microsoft Store
+        - Other / direct download
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and version
+      placeholder: "macOS 26.1 on an M2 MacBook Air, or Windows 11 24H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: AI model
+      options:
+        - Claude Haiku
+        - Claude Sonnet
+        - Claude Opus
+        - GPT-6 Luna
+        - GPT-6 Sol
+        - GPT-4o
+        - Not related to the AI model
+  - type: input
+    id: camera
+    attributes:
+      label: Camera and clip format
+      description: Useful for loading, preview and location problems.
+      placeholder: "DJI Neo 2, MP4 HEVC 4K 30fps"
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message
+      description: Copy the exact text of any error shown in the app.
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here if they help.

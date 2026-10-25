@@ -1,0 +1,5 @@
+title: Framewise
+description: Support and privacy policy for Framewise, AI metadata for stock footage.
+theme: jekyll-theme-primer
+exclude:
+  - SETUP.md

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email support
+    url: mailto:scottj@live.com
+    about: For private questions, or if you'd rather not use GitHub.
+  - name: Frequently asked questions
+    url: https://github.com/skootrz/framewise#frequently-asked-questions
+    about: Answers about API keys, costs, formats and locations.
+  - name: Privacy policy
+    url: https://skootrz.github.io/framewise/privacy/
+    about: What Framewise sends, and where.

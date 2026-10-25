@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an idea or improvement for Framewise
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the task or problem, not just the solution. For example, "I upload to two stock sites with different keyword limits."
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you'd like Framewise to handle it.
+    validations:
+      required: true
+  - type: input
+    id: sites
+    attributes:
+      label: Stock sites you upload to
+      description: Optional. Helps prioritize export formats.
+      placeholder: "Pond5, Adobe Stock, Shutterstock"
