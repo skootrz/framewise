@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Framewise Privacy Policy
 
-_Last updated: October 25, 2026_
+_Last updated: November 6, 2026_
 
 Framewise is a desktop app that writes titles, descriptions, keywords and
 locations for your video clips. It is built to keep your footage and data on
@@ -15,8 +15,8 @@ where it goes.
 ## The short version
 
 - Framewise has no account, no server of its own, no analytics, no tracking
-  and no ads. The developer never receives your videos, your metadata or your
-  API keys.
+  and no ads. The developer never receives your videos or your API keys, and
+  receives your metadata only if you choose to report an issue (see below).
 - When you analyze a clip, a few still frames from it are sent to the AI
   provider **you** choose (Anthropic or OpenAI), using **your own** API key.
 - If a clip has GPS coordinates embedded, those coordinates are sent to
@@ -51,7 +51,8 @@ All of these connections use HTTPS.
   reads them back; they are only used to make the requests listed above.
 - **Your clips, the generated metadata, your queue, batch history, usage log,
   settings and keyword vocabulary** are stored locally on your computer and
-  never sent anywhere except as described in the table above.
+  never sent anywhere except as described in the table above, or in a report
+  you choose to send.
 - **Exports** (CSV or Excel) are written only to the location you choose.
 - Temporary frame images are deleted after each analysis.
 
@@ -61,6 +62,16 @@ Framewise is not directed at children and does not knowingly collect
 personal information from anyone.
 
 ## Changes
+
+## Reporting an issue
+
+The Review screen lets you report AI-generated metadata that's offensive,
+harmful or wrong. This creates an email draft in your own email app, or text
+you can copy. It contains the reason, any details you add, the clip's generated
+title, description, location and keywords, the AI model and the app version. It
+doesn't include the video, its frames, or its file name. Nothing is sent unless
+you send it yourself, and the developer then receives your email address along
+with the report.
 
 If what Framewise sends, or where, ever changes, this policy will be updated
 and the date above revised.
